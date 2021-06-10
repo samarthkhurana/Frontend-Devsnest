@@ -1,0 +1,19 @@
+h1{
+background-color: peru;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#p_id{
+    font-weight: bolder;
+    background-color: royalblue;
+}
+
+#subject_id{
+    font-weight: bolder;
+    background-color: rgb(212, 210, 61);
+}
+
+th,td{
+    background-color: tomato;
+    font-weight: bolder;
+}
