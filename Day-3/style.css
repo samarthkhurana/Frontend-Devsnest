@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: peru;
+}
+
+h5 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -20px;
+  border-bottom: 3px solid lightslategray;
+  padding-bottom: 5px;
+  margin-bottom: -16px;
+}
+
+body {
+  /* max-width: max-content; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: inline-block; */
+}
+
+fieldset {
+    width: max-content;
+    border: 6px solid slategray;
+}
+
+.block{
+    display: inline-block;
+    width: 500px;
+    height: 480px;
+    margin: 10px;
+    padding: 2px;
+    margin-bottom: -40px;
+}
+
+#resume_header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: lightskyblue;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid lightslategray;
+}
+
+ul {
+  padding: 16px;
+}
+.left{
+    border-right: 3px solid slategray;
+}
