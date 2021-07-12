@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+  }
+ 
+
+  
+  .container {
+    background-color: beige;
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    text-shadow: 1.5px 1.5px;
+  }
+  .main-area {
+    background-color: #c24a2cc7;
+    width: 70%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 8px;
+    border-radius: 2px;
+  }
+
+  .seat {
+    height: 100%;
+    border-radius: 8px;
+    background-color: #793322c7;
+  }
+  .seat:hover {
+    background-color: #521607c7;
+    opacity: 0.2;
+  }
+  .booked {
+    background-color: #521607c7;
+  }
+  
